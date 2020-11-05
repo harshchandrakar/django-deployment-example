@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WELCOME TO URL TEMPLATES</title>
+</head>
+<body>
+    <h1>WELCOME TO URL TEMPLATES</h1>
+    <a href="{% url 'basic_app:other' %}">THE OTHER PAGE</a><br>
+    <a href="{% url 'admin:index' %}">LINK TO ADMIN</a><br>
+    <a href="{% url 'index' %}">HAME PAGE</a><br>
+<!--over here basic_app came from app_name defined in basic_app\urls.py-->
+</body>
+</html>
